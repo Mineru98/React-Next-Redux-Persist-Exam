@@ -1,0 +1,9 @@
+{
+	"extends": "../tsconfig.json",
+	"compileOnSave": false,
+	"compilerOptions": {
+		"module": "esnext"
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "api/index.js"],
+	"exclude": ["node_modules"]
+}
